@@ -1,0 +1,9 @@
+{
+  "data": "{\"conversationId\":508,\"createdDate\":\"2021-09-15T06:02:15.5269884+00:00\",\"fromUser\":\"teefisahiba\",\"fromUserId\":9,\"inboxId\":3,\"message\":\"Hi\",\"toUser\":\"teefasahib\",\"toUserId\":10}",
+  "type": "new_message_iHakeem",
+  "userIds": [
+    {
+      "id": "10"
+    }
+  ]
+}

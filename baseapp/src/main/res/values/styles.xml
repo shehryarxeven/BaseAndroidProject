@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="IconOnly" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="iconPadding">0dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:maxWidth">@dimen/icon_btn_min_width_height</item>
+        <item name="android:maxHeight">@dimen/icon_btn_min_width_height</item>
+        <item name="android:minWidth">@dimen/icon_btn_min_width_height</item>
+        <item name="android:minHeight">@dimen/icon_btn_min_width_height</item>
+        <item name="iconTint">?android:attr/textColorSecondary</item>
+        <item name="iconGravity">textStart</item>
+        <item name="android:gravity">center</item>
+        <item name="iconSize">24dp</item>
+        <item name="strokeColor">@android:color/transparent</item>
+        <item name="rippleColor">@android:color/transparent</item>
+
+        <item name="android:foreground">@drawable/round_ripple</item>
+
+    </style>
+
+    <dimen name="icon_btn_min_width_height">36dp</dimen>
+    <dimen name="margin_normal">8dp</dimen>
+
+    <style name="IconOnly.BigIcon">
+
+        <item name="iconSize">36dp</item>
+
+
+    </style>
+
+    <style name="TextAppearance.MdcTypographyStyles.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="TextAppearance.MdcTypographyStyles.Body1" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextAppearance.MdcTypographyStyles.Body1.Light">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+
+
+
+
+    <style name="TextAppearance.MdcTypographyStyles.Body2" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="TextAppearance.MdcTypographyStyles.Subtitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+
+    <style name="TextAppearance.MdcTypographyStyles.Subtitle2" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+
+    <style name="TextIconButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="iconTint">?attr/colorSecondary</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="iconPadding">@dimen/margin_normal</item>
+        <item name="android:textAppearance">@style/TextAppearance.MdcTypographyStyles.Button</item>
+        <item name="iconGravity">textStart</item>
+        <item name="iconSize">24dp</item>
+
+    </style>
+
+
+    <style name="TextAppearance.MdcTypographyStyles.Button" parent="TextAppearance.MaterialComponents.Button">
+
+        <item name="android:textSize">14sp</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="IconOnly.FilledRound">
+        <item name="iconTint">?attr/colorSecondary</item>
+        <item name="android:foreground">@drawable/round_ripple</item>
+    </style>
+
+</resources>

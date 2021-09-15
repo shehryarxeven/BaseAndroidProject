@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BaseApp</string>
+    <string name="required">required</string>
+    <string name="succuess">success</string>
+    <string name="error">error</string>
+    <string name="ok">ok</string>
+    <string name="pick_from_camera">Pick from Camera</string>
+    <string name="pick_from_gallery">Pick from Gallery</string>
+    <string name="select_document">Pick Document</string>
+</resources>
