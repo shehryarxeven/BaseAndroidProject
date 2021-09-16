@@ -17,8 +17,7 @@ import androidx.appcompat.view.menu.MenuPopupHelper;
 import androidx.core.graphics.drawable.DrawableCompat;
 import androidx.fragment.app.FragmentManager;
 
-import com.wdullaer.materialdatetimepicker.date.DatePickerDialog;
-import com.wdullaer.materialdatetimepicker.time.TimePickerDialog;
+
 import com.xevensolutions.baseapp.R;
 import com.xevensolutions.baseapp.interfaces.TextInputListener;
 
@@ -120,7 +119,7 @@ public class AlertUtils {
     public static void showSuccessErrorAlert(Activity activity, boolean isForSuccess, String message, boolean shouldEndActivity
             , int requestCode, boolean showToast) {
 
-        if (isStringEmpty(message) )
+        if (isStringEmpty(message))
             return;
         if (showToast) {
             try {
@@ -141,6 +140,7 @@ public class AlertUtils {
 
     }
 
+/*
     public static void showDatePicker(FragmentManager fragmentManager,
                                       DatePickerDialog.OnDateSetListener onDateSetListener) {
         Calendar now = Calendar.getInstance();
@@ -155,14 +155,16 @@ public class AlertUtils {
 // If you're calling this from a support Fragment
 
 
-        /*MaterialDatePicker picker = MaterialDatePicker.Builder.datePicker().build();
+        */
+/*MaterialDatePicker picker = MaterialDatePicker.Builder.datePicker().build();
         picker.show(fragmentManager, "");
         picker.addOnPositiveButtonClickListener(new MaterialPickerOnPositiveButtonClickListener() {
             @Override
             public void onPositiveButtonClick(Object selection) {
 
             }
-        });*/
+        });*//*
+
         dpd.show(fragmentManager, "Datepickerdialog");
     }
 
@@ -182,6 +184,7 @@ public class AlertUtils {
 // If you're calling this from a support Fragment
         timePickerDialog.show(fragmentManager, "TimePickerDialog");
     }
+*/
 
 
 }

@@ -46,7 +46,7 @@ dependencies {
     implementation 'io.reactivex.rxjava3:rxandroid:3.0.0'
     implementation 'com.jakewharton:butterknife:10.2.3'
     annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.3'
-    implementation 'com.wdullaer:materialdatetimepicker:4.2.3'
+    //implementation 'com.wdullaer:materialdatetimepicker:4.2.3'
     implementation 'com.github.michael-rapp:android-bottom-sheet:2.0.0'
     implementation 'net.danlew:android.joda:2.10.7'
 
