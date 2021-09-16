@@ -17,6 +17,9 @@ buildscript {
         // in the individual module build.gradle files
     }
 }
+ext {
+    versionName = '1.0.0.1'
+}
 
 allprojects {
     repositories {
